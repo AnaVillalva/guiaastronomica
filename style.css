@@ -1,0 +1,91 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    color: white;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/img/telescopioo1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 32px;
+}
+
+header h1 {
+    margin: 5px;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+nav {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+nav a {
+    color: #edf0f3;
+    margin: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    color: rgb(79, 146, 190);
+    transform: translateY(-2px);
+}
+
+.hero {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.carousel-item img {
+    height: 500px; 
+
+
+}
+
+
+.carousel-caption {
+
+    color: #edf0f3; 
+    font-size: 1.5rem;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.9), 0 0 10px rgba(255, 255, 255, 0.8), 0 0 15px rgba(255, 255, 255, 0.7);  /* Efecto de brillo */
+}
+
+
+.carousel-caption {
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.9), 0 0 10px rgba(255, 255, 255, 0.8), 0 0 15px rgba(255, 255, 255, 0.7);
+    }
+
+    50% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 0.9), 0 0 40px rgba(255, 255, 255,);
+    }
+}
+p {
+    margin-bottom: 1em;
+}
+
+.footer {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    color: #edf0f3;
+}
+
+/* Villalva Ana Florencia */
